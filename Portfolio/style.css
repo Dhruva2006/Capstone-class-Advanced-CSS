@@ -1,0 +1,61 @@
+h1{
+    color:red;
+    padding-left: 30px;
+}
+h2{
+    color:royalblue;
+    padding: 10px;
+}
+*{
+    border:solid navy;
+}
+.headder *{
+    background-color: aqua;
+    border: solid;
+    /*display: flex;
+    justify-content: space-between;*/
+}
+.body{
+    background-color: burlywood;
+}
+.grid{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    background-color: cornsilk;
+}
+.footer{
+    background-color: crimson;
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color: (#FFEFE5);
+    /*background-color: (128, 128, 128);*/
+}
+
+a:link{
+    color: darkblue;
+}
+
+a:visited{
+    color: purple;
+}
+
+.item{
+    position:relative;
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, 50%);
+}
+
+.item:hover p{
+    opacity: 0.33;
+}
